@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  width: 100vw;
+  height: 100vh;
+  background-color: #11B5E4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor .calculadora {
+  width: 400px;
+  height: 500px;
+  background-color: #034748;
+  border-radius: 4px;
+}
+.contenedor .calculadora #pantallaResultado {
+  width: 360px;
+  height: 80px;
+  background-color: aliceblue;
+  margin: 28px auto;
+  border-radius: 4px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.contenedor .calculadora #pantallaResultado #ecuacion {
+  width: 100%;
+  height: 50%;
+  font-size: 32px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+.contenedor .calculadora #pantallaResultado #pantalla {
+  width: 100%;
+  height: 50%;
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.contenedor .calculadora .botones {
+  width: 90%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 15px 10px;
+  justify-items: center;
+  margin: 20px auto;
+}
+.contenedor .calculadora .botones .btn {
+  width: 75px;
+  height: 75px;
+  background-color: #001021;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 38px;
+  border-radius: 4px;
+}
+.contenedor .calculadora .botones .btn:hover {
+  color: black;
+  background-color: #A6ECE0;
+}/*# sourceMappingURL=main.css.map */
